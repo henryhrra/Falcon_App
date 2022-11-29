@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+   android:backgroundTint="#F6E3E3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ingrese su pregunta"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/txt_Pregunta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ingrese la descripción"/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/txt_Desripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="seleccione la categoria"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinercategoria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/categorias"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:backgroundTint="#CF6E6E"
+               android:layout_marginRight="5dp"
+                android:id="@+id/btn_Guardar"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Guardar"
+                android:textSize="9dp"
+                />
+            <Button
+                android:backgroundTint="#CF6E6E"
+              android:layout_marginLeft="5dp"
+                android:id="@+id/btn_Cancelar"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cancelar"
+                android:textSize="9dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

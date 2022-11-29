@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Parcial_Final</string>
+    <array name="categorias">
+        <item>Ciencia</item>
+        <item>Matemáticas</item>
+        <item>Ingles</item>
+        <item>Sociales</item>
+        <item>Informática</item>
+        <item>Literatura</item>
+    </array>
+    <array name="ordenar">
+        <item>Todas</item>
+        <item>Ciencia</item>
+        <item>Matemáticas</item>
+        <item>Ingles</item>
+        <item>Sociales</item>
+        <item>Informática</item>
+        <item>Literatura</item>
+    </array>
+</resources>
